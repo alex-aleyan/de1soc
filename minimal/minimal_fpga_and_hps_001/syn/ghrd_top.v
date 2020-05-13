@@ -305,7 +305,8 @@ module ghrd_top(
 		  .hps_0_h2f_reset_reset_n               (hps_fpga_reset_n),               //                hps_0_h2f_reset.reset_n
         .hps_0_f2h_warm_reset_req_reset_n      (~hps_warm_reset),      //       hps_0_f2h_warm_reset_req.reset_n
         .hps_0_f2h_debug_reset_req_reset_n     (~hps_debug_reset),     //      hps_0_f2h_debug_reset_req.reset_n
-        .hps_0_f2h_cold_reset_req_reset_n      (~hps_cold_reset)       //       hps_0_f2h_cold_reset_req.reset_n
+        .hps_0_f2h_cold_reset_req_reset_n      (~hps_cold_reset),       //       hps_0_f2h_cold_reset_req.reset_n
+        .pio_led_external_connection_export    (LEDR)     // pio_led_external_connection.export
     );
   
 // Source/Probe megawizard instance
