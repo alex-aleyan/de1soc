@@ -1,0 +1,19 @@
+Fitter Status : Successful - Fri May 16 17:54:05 2014
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : DE1_SOC_Linux_FB
+Top-level Entity Name : DE1_SOC_Linux_FB
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 4,489 / 32,070 ( 14 % )
+Total registers : 7179
+Total pins : 368 / 457 ( 81 % )
+Total virtual pins : 0
+Total block memory bits : 61,534 / 4,065,280 ( 2 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 2 / 6 ( 33 % )
+Total DLLs : 1 / 4 ( 25 % )
