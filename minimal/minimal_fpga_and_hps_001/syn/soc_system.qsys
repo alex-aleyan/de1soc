@@ -112,7 +112,7 @@
          type = "String";
       }
    }
-   element pio_0
+   element pio_0_led
    {
       datum _sortIndex
       {
@@ -193,7 +193,7 @@
  <interface name="memory" internal="hps_0.memory" type="conduit" dir="end" />
  <interface
    name="pio_led_external_connection_export"
-   internal="pio_0.external_connection"
+   internal="pio_0_led.external_connection"
    type="conduit"
    dir="end" />
  <interface name="reset" internal="clk_0.clk_in_reset" type="reset" dir="end" />
@@ -820,7 +820,7 @@
   <parameter name="useShallowMemBlocks" value="false" />
   <parameter name="writable" value="true" />
  </module>
- <module name="pio_0" kind="altera_avalon_pio" version="16.1" enabled="1">
+ <module name="pio_0_led" kind="altera_avalon_pio" version="16.1" enabled="1">
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
@@ -872,7 +872,7 @@
    kind="avalon"
    version="16.1"
    start="hps_0.h2f_lw_axi_master"
-   end="pio_0.s1">
+   end="pio_0_led.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0000" />
   <parameter name="defaultConnection" value="false" />
@@ -934,7 +934,7 @@
    start="clk_0.clk"
    end="fpga_only_master.clk" />
  <connection kind="clock" version="16.1" start="clk_0.clk" end="jtag_uart.clk" />
- <connection kind="clock" version="16.1" start="clk_0.clk" end="pio_0.clk" />
+ <connection kind="clock" version="16.1" start="clk_0.clk" end="pio_0_led.clk" />
  <connection
    kind="clock"
    version="16.1"
@@ -994,7 +994,11 @@
    version="16.1"
    start="clk_0.clk_reset"
    end="jtag_uart.reset" />
- <connection kind="reset" version="16.1" start="clk_0.clk_reset" end="pio_0.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="pio_0_led.reset" />
  <connection
    kind="reset"
    version="16.1"

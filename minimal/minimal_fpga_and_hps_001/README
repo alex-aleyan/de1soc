@@ -1,4 +1,5 @@
 1. Copy from my_first_hps-fpga_base.ln to syn all the files except the soc_system.qsys and ghrd_top.v
+    cp -rnv my_first_hps-fpga_base.ln/* syn
 2. Generage the qsys system
 3. Build the project.
 4. run the generate script to generate the header file for your software.
