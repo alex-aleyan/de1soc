@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri May 16 17:47:56 2014
+Quartus II 64-Bit Version : 13.1.3 Build 178 02/12/2014 SJ Full Version
+Revision Name : DE1_SoC_TV
+Top-level Entity Name : DE1_SoC_TV
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 1274
+Total pins : 241
+Total virtual pins : 0
+Total block memory bits : 45,024
+Total DSP Blocks : 6
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 1
+Total DLLs : 0
