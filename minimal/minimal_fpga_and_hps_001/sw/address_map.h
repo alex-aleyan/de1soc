@@ -1,1 +1,1 @@
-../syn/hps_0.h
+../syn/hps_0_arm_a9_0.h
